@@ -1,2 +1,3 @@
 index.html
 buildspec.yml
+s3 url for web hosting http://aws-cicddemo.s3-website-us-east-1.amazonaws.com
