@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>CI/CD Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CI/CD Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #1f4037, #99f2c8);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        .version {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            display: inline-block;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .container {
+            margin-top: 40px;
+        }
+        .card {
+            background: rgba(255,255,255,0.2);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            width: 250px;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to CI/CD sample </h1>
-    <p>Version 2</p>
+
+<header>
+    <h1>🚀 AWS CI/CD Demo</h1>
+    <p>Automated Deployment using AWS CodePipeline</p>
+
+    <div class="version">
+        <h2>Version 1</h2>
+        <p>Deployed via CI/CD Pipeline</p>
+    </div>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h3>⚙️ CI</h3>
+        <p>Code integrated automatically on commit</p>
+    </div>
+
+    <div class="card">
+        <h3>🚀 CD</h3>
+        <p>Automatic deployment to S3</p>
+    </div>
+
+    <div class="card">
+        <h3>☁️ AWS</h3>
+        <p>Using CodePipeline, CodeBuild & S3</p>
+    </div>
+</div>
+
+<footer>
+    <p>Demo by Pranav Kumar</p>
+</footer>
+
 </body>
 </html>
